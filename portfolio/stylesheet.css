@@ -1,0 +1,77 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header{
+    /* sets text color, background color, font size in the header */
+    font-family: 'Roboto', sans-serif;
+    color: #F3E1DD;
+    text-align: center;
+    font-size: 25px;
+    background-color:#89023E;
+    padding: 10px;
+}
+h1{
+    /* makes h1 bolder */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+h2{
+    /* h2 color and size */
+    font-family: 'Roboto', sans-serif;
+    color: #F3E1DD;
+    font-size: 20px;
+}
+h3{
+    /* h3 color and size */
+    font-family: 'Roboto', sans-serif;
+    color: #89023E;
+    font-size: 30px;
+}
+body{
+    /* takes away space around elements in the body */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.picture{
+    /* sets picture size and makes it round */
+    width:400px;
+    height: 400px;
+    border-radius: 50%;
+    padding-top: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    /* puts everything in the center */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+ul, ol {
+    /* makes the bullets in lists look neater*/
+    display: inline-block;
+    text-align: left;
+}
+
+
+footer{
+    /* footer color, alignment, and font size */
+    font-family: 'Roboto', sans-serif;
+    color:#89023E;
+    text-align: center;
+    font-size: 10px;
+    background-color:#ffd9da;
+    padding: 10px
+
+}
+/* styles links */
+a:link {color:#89023E;}
+a:visited {color:#CC7178;}
+a:hover{color:#C7D9B7;}
+a:active{color:olivedrab;}
